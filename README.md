@@ -74,3 +74,9 @@ class varianza:
         varianza=self.csv[self.columna].var()
         print("la varianza es: ", varianza)
 ```
+
+### Main
+
+```
+
+```
