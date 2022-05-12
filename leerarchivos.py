@@ -7,5 +7,5 @@ fileuno.write("date", "hour", "id_lead", "id_user", "gclid", "lead_type", "resul
 
 
 leernavegacion=pd.read_csv("navegacion(4).csv")
-filedos=open("navegacion.csv", "w")
+filedos=open("navegacion(4).csv", "w")
 filedos.write("ts", "uuid", "id_user", "gclid", "user_recurrent", "url_landing")
