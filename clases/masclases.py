@@ -43,6 +43,6 @@ class quartiltres:
     def __init__(self, columna, csv):
         self.csv=csv
         self.columna=columna
-    def calcularquartiluno(self):
+    def calcularquartiltres(self):
         cuartiltres=self.csv[self.columna].mad()
         print("el cuartil tres es: ", cuartiltres)    
