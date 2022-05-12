@@ -8,6 +8,6 @@ class desviaciontipica:
         self.csv=csv
         self.columna=columna
 
-    def calculodesviaciontipica(self):
+    def calculardesviaciontipica(self):
         desviaciontipica=self.csv[self.columna].mad()
         print("la desviacion tipica es: ", desviaciontipica)
